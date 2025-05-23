@@ -24,7 +24,7 @@ padding-right: 30px;
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/Icones/calendario.svg'); 
+    background-image: url('Icones/calendario.svg'); 
     margin-right: 0.5rem;
 }
 
