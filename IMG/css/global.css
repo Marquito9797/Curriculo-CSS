@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url(IMG/back.jpg);
+    background-color: ##040120;
     color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
