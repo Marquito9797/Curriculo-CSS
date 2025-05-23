@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'neueMachina';
-    src: url("/IMG/NeueMachina-Regular.otf");
+    src: url("IMG/NeueMachina-Regular.otf");
 
 }
 
 body {
-    background-image: url(/IMG/back.jpg);
+    background-image: url(IMG/back.jpg);
     color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
