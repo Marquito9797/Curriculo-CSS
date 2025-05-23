@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+@font-face {
+    font-family: 'neueMachina';
+    src: url("/IMG/NeueMachina-Regular.otf");
+
+}
+
+body {
+    background-image: url(/IMG/back.jpg);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+background-attachment:fixed
+}
+
+a {
+color: #fff;
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+.main {
+max-width: 1024px;
+margin: 1rem auto;
+}
+
+.main::before{
+width: 70vw;
+}
+.main::after{
+width: 70vw;
+}
+
+}

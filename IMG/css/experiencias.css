@@ -1,0 +1,44 @@
+.experiencias {
+    margin: 0;
+    padding: 7;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+padding-right: 30px;
+}
+
+.experiencias li .periodo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+
+}
+
+.experiencias li .periodo::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/Icones/calendario.svg'); 
+    margin-right: 0.5rem;
+}
+
+.trigger {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.trigger span {
+  display: inline-block;
+}
